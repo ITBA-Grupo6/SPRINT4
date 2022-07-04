@@ -37,6 +37,18 @@ archivo= open('test.csv', 'r') # abre el archivo
 lineas = csv.reader(archivo) # lee el archivo
 
 cheques_a_devolver = []
+NroCheque = []
+
+for linea in lineas:
+    if linea[-3] == dni:         
+        NroCheque.append(linea[0])
+
+if len(NroCheque) != len(set(NroCheque)):
+    print("El DNI:", dni, "tiene cheques con igual número:", NroCheque[0])
+    quit()
+
+archivo= open('test.csv', 'r') # abre el archivo
+lineas = csv.reader(archivo) # lee el archivo
 
 for linea in lineas:
     if linea[-3] == dni: #si coincide el dni...
