@@ -30,7 +30,7 @@ Requerimientos específicos:
     Ejemplos para verificar el punto (3.) y (4.): 
 
       Para verificar si se repite un nro. de cheque por PANTALLA:     
-       python3 .\listado_cheques.py test.csv 40998788 PANTALLA EMITIDO
+        python3 .\listado_cheques.py test.csv 40998788 PANTALLA EMITIDO
       Para verificar si se repite un nro. de cheque por CSV:
         python3 .\listado_cheques.py test.csv 40998788 CSV EMITIDO
       En ambos casos se muestra por pantalla> 
