@@ -29,7 +29,7 @@ if len(parametros) > 1 & len(parametros) < 4 :
                 rango_fecha = parametros[6]
                 se_ingreso_fecha = True
                 # en el siguiente se crea una lista con los segundos desde 1970 de las dos fechas ingresadas... se utiliza datetime, split, y list comprehension
-                # quedo muy ilegible, pido disculpas.
+                # quedo muy ilegible, pedimos disculpas.
                 fechas = [datetime(fecha.split("-")[2],fecha.split("-")[1],fecha.split("-")[0]).timestamp() for fecha in rango_fecha.split(":")]
 else:
     print("Ingrese bien los parametros!")

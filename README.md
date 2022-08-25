@@ -1,16 +1,18 @@
-# SPRINT4
-Sprint 4 del Full Stack Developer Challenge
+# SPRINT4 * Correciones
+Sprint 4 Para el curso de Full Stack Developer 
 
 Problemática:
 
-Se quiere poder consultar los cheques que tiene emitidos y depositados en suscuentas un determinado cliente, pudiendo estar estos 
-pendientes, aprobado o rechazado. 
+Se quiere poder consultar los cheques que tiene emitidos y depositados en suscuentas un determinado cliente, pudiendo estar estos:
+"pendientes, aprobado o rechazado."
 Para esto la problemática a resolver es que se tiene que obtener la información desde un archivo.
-Por lo que dado un script en Python se solicita que se puedan ingresar lassiguientes acciones por línea de comando y se visualicen
+Por lo que dado un script en Python se solicita que se puedan ingresar las siguientes acciones por línea de comando y se visualicen
 los resultados porpantalla.
 
 Requerimientos específicos:
+
   1. El script de Python se debe llamar listado_chesques.py
+
   2. El orden de los argumentos son los siguientes: 
     a. Nombre del archivo csv.
     b. DNI del cliente donde se filtraran.
@@ -24,7 +26,7 @@ Requerimientos específicos:
 
   4. Si el parámetro “Salida” es PANTALLA se deberá imprimir por pantalla todoslos valores que se tienen, y si “Salida” es CSV se 
   deberá exportar a un csv con las siguientes condiciones:
-    a. El nombre de archivo tiene que tener el formato<DNI><TIMESTAMPS ACTUAL>.csv
+    a. El nombre de archivo tiene que tener el formato <DNI><TIMESTAMPS ACTUAL> .csv
     b. Se tiene que exportar las dos fechas, el valor del cheque y la cuenta.
 
     Ejemplos para verificar el punto (3.) y (4.): 
